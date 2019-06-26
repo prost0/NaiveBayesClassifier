@@ -1,0 +1,128 @@
+taste,brewing, hops
+
+brewing,history
+
+breawing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cd \
+cd users\prost(polzovatel)\desktop\CP_DA
+
+nmake
+naiveBayesClassifier learn --input _file2_learn.txt --output statistics.txt
+naiveBayesClassifier classify --stats statistics.txt --input _file2_classify.txt --output _file_result.txt
+
+naiveBayesClassifier learn --input _file1_learn.txt --output statistics.txt
+naiveBayesClassifier classify --stats statistics.txt --input _file1_classify.txt --output _file_result.txt
+
+
+
+
+
+
+
+
+
+
+        /* check array begin*/
+        cout << "===========\n";
+        for (auto &i : finishHim) {
+            cout << "probability = " << i.first << " % // tag = " << i.second << "\n";
+        }
+        long double Sum_probability = 0;
+        for (auto &i : finishHim) {
+            Sum_probability += i.first;
+        }
+        cout << "TOTAL = " << Sum_probability << "\n";
+        /* check array end*/
+        
+        /* out of res */
+
+
+
+
+
+
+
+
+6
+ Is Jagermeister healthy for you?
+ I always heard that Jagermeister is very healthy for you and is a great digestive ,
+ is all this true?
+ Would a shot of Jagermeister make me more healthier or would the alcohol just be damaging me in time?
+ This is my first question on this site so sorry if I didn't formulated it quite
+
+health,drinking
+
+4
+What is the closest tasting beer to Erdinger?
+ I love Erdinger and wheat beers in general, after trying some of Erdginers others types I wondered 
+ what other beer out there is close to Erdinger taste
+
+taste
+
+
+3
+Just wondering how a bottle conditioned beer will change over its life - if at all? 
+And is there a perfect time to drink one? Also do different types change differently?
+
+taste
+
+8
+How to know which wine goes with which type of food
+I'm planning on having some friends over next week, and since I really enjoy grilling I plan to make 
+some good steaks for them. They like wines, I personally would just drink a cold beer considering the 
+heat of the grilling and that we reach high temperatures this time of the year. 
+And well the issue is that I know nothing about wines and how to combine them with different meals. 
+But for the sake of not having a too broad question,
+ I'd like to know which wine could go best with a steak and why.
+
+wine
+6
+Is beer healthy if drunk in moderation?
+Beer is obviously not healthy if it is drunk to much, however, one of my friends argue a little beer 
+in moderation can provide certain health benefits. Like it can lower risk of stroke and heart 
+diseases. Is this true or is it just baloney people say to get someone else to drink a little 
+bit? Are these claims true?
+
+health
+
+
+9
+I've read that raw hops can be bad for dogs, somehow causing hyperthermia.
+ What about very hoppy beers? 
+ Answers might include reports on what it is in hops (alpha acids?) that make hops bad for dogs.
+ Please keep answers restricted to the effect of brewed hops. 
+ I already realize the fermented alcohol can be bad for smaller pets.
+  I'm not looking for alcohol related answers, just answers on boiled and fermented hops.
+  As an aside, it seems okay for cats. Mine decided to take a sip, seemed to like it,
+   and came back for more.
+
+14
+Background: I was drinking a New Belgium;
+last week and thinking about the hops that I was tasting in the finish.
+For me, hops in general were a pretty slowly acquired taste,
+ and I didn't start truly appreciating the hoppy West Coast style until
+ I encountered Sierra Nevada Torpedo; and fell in love.
+ Now I finally find myself wanting to get to know specific varieties of hops by flavor and scent.
+ Amarillo, Cascade, and so on - I know there are dozens and dozens of varieties, 
+ but how do I start training myself to recognize their differences 
+ (and identify the most common varieties) in the drink itself? 
+ Should I buy some hops from a supply store, 
+ and huff 'em like a soccer mom in a fabric softener commercial?
+  Or would that be totally different from what comes through in a beer? 
+  Would it be better to find a stool at a local brewery/brewpub and ask for a lesson in liquid form?
+
+taste,hops
